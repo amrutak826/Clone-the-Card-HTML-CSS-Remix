@@ -1,0 +1,76 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #1e1e1e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: #fff;
+  width: 300px;
+  border: 1px solid #ccc;
+  padding: 12px;
+  border-radius: 4px;
+}
+
+.product-img {
+  width: 100%;
+  height: auto;
+  border: 1px solid #ddd;
+}
+
+.title {
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+.rating {
+  color: #f0c14b;
+  font-size: 14px;
+}
+
+.rating .count {
+  color: #007185;
+  margin-left: 4px;
+}
+
+.sold {
+  font-size: 12px;
+  color: #565959;
+  margin: 6px 0;
+}
+
+.price-section {
+  font-size: 22px;
+  font-weight: bold;
+  margin: 4px 0;
+}
+
+.price-section .decimal {
+  font-size: 14px;
+  vertical-align: super;
+}
+
+.delivery {
+  font-size: 12px;
+  color: #565959;
+}
+
+.ship {
+  font-size: 12px;
+  color: #007600;
+  margin-bottom: 8px;
+}
+
+.cart-btn {
+  background-color: #ffd814;
+  border: 1px solid #fcd200;
+  padding: 6px 12px;
+  width: 100%;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-weight: bold;
+}
